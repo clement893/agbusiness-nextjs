@@ -10,9 +10,8 @@ export default function Home() {
       
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative h-[600px] flex items-center justify-center text-white">
-          <div className="absolute inset-0 bg-primary/90 z-10"></div>
-          <div className="relative z-20 container mx-auto px-4 text-center">
+        <section className="relative h-[600px] flex items-center justify-center text-white bg-gradient-to-br from-[#1B4D3E] to-[#0F2E24]">
+          <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               Empowering Your Farm Business<br />with Data-Driven Decisions
             </h1>
